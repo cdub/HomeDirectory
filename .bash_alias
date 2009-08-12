@@ -1,0 +1,7 @@
+
+
+alias dspace='df -kh'
+alias mechshell='perl -MWWW::Mechanize::Shell -eshell'
+
+# Open OS X GUI application from command line
+alias startapp="open -a"

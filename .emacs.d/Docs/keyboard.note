@@ -1,0 +1,24 @@
+
+
+C-b		backward-char		Move backward one character.
+M-b		backward-word		Move to the previous word.
+M-a		backward-sentence	Move back one sentence.
+C-p		previous-line		Move up one line.
+C-x [		backward-page		Go back one page.
+M-<		beginning-of-buffer	Move to beginning of the current buffer.
+C-v		scroll-up		Scroll up one screen.
+
+
+C-f		forward-char		Move cursor one character.
+M-f		forward-word		Move to the next word.  (words are defined by whitespace/special characters.)
+C-n		next-line		Move down one line.
+C-x ]		forward-page		Go forward one page.
+M->		end-of-buffer		Move to end of buffer.
+C-a		beginning-of-line	Move to the beginning of the line.
+C-e		end-of-line		Move to the end of the line.
+M-v		scroll-down		Scroll down one screen.
+
+
+
+C-l		recenter		Redraw the screen with the current line in the center.
+M-(a number)	digit-argument		Do the next command (a number) of times.

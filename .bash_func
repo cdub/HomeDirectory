@@ -1,0 +1,16 @@
+# Perl Functions
+
+function pmodver {
+    # e.g. perl -MData::Dumper 'print "$Data::Dumper::VERSION\n"'
+    perl -M$1 -e "print \"\$${1}::VERSION\n\";"
+}
+
+
+#
+# Use Perl's Env::Path to write
+#
+
+function append_path {
+export PATH=`add_path.pl ${1}`
+}
+
